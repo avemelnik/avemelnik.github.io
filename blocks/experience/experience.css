@@ -1,0 +1,56 @@
+.experience {
+    position: relative;
+    min-height: 606px;
+    margin-top: 65px;
+    border-top: 1px #E7EAED solid;
+}
+
+.experience__head {
+    margin-top: 95px;
+    width: 100%;
+
+}
+
+.experience__text {
+    font-family: "Open Sans-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3d3d3d;
+    margin-top: -10px;
+    /*margin-right: 103px;*/
+    margin-bottom: 0;
+    outline: none;
+    border: none;
+
+}
+
+.experience__box {
+    display: flex;
+    flex-wrap: wrap;
+    /*border-bottom: 1px #E7EAED solid;*/
+}
+
+
+
+@media screen and (min-width: 1170px) {
+    .experience__head {
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+        align-items: start;
+        display: flex;
+
+    }
+
+    .experience:after {
+        content: " ";
+        background: #E7EAED;
+        width: 81%;
+        height: 1px;
+        margin: 0;
+        display: block;
+        margin-left: 9.5%;
+    }
+}

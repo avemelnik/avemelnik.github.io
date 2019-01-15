@@ -1,0 +1,130 @@
+.title-h1{
+    color: #ffffff;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+}
+
+.title-h2{
+    color: #3d3d3d;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title__text{
+    color: #ffffff;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.title__text:after{
+    content: ' ';
+    background: white;
+    display: block;
+    margin-top: 47px;
+    width: 74px;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.title-h2__text:after{
+    background: #F16522;
+    margin-top: 32px;
+    width: 35px;
+    height: 5px;
+    border-radius: 0;
+}
+
+.title-h2__text {
+    color: #3d3d3d;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-h3 {
+    color: #3d3d3d;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.title-h3__text {
+    color: #3d3d3d;
+    font-family: "Open Sans-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: initial;
+    width: 476px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title-h3:after {
+    content: ' ';
+    background: #F16522;
+    display: block;
+    position: relative;
+    left: calc(50% - 13px);
+    margin-top: 25px;
+    width: 35px;
+    height: 5px;
+}
+
+.title-h4 {
+    color: #3d3d3d;
+    font-family: 'Dosis-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.title-h4__text {
+    color: #8e8e8e;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Open Sans-SemiBold", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: initial;
+    margin-top: -8px;
+    /*margin-bottom: 0;*/
+}
+
+.title-h4__text:after {
+    background: #F16522;
+    margin-top: 16px;
+    width: 30px;
+    height: 4px;
+    border-radius: 0;
+}
+
+@media screen and (min-width: 1170px) {
+    .title-h1{
+        text-align: left;
+        font-size: 90px;
+    }
+
+    .title-h2{
+        font-size: 50px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,15 @@
+@import "blocks/basics.css";
+@import 'blocks/header/header.css';
+@import 'blocks/page/page.css';
+@import 'blocks/box/box.css';
+@import 'blocks/welcome/welcome.css';
+@import 'blocks/buttons/button.css';
+@import 'blocks/menu/menu.css';
+@import 'blocks/title/title.css';
+@import 'blocks/head/head.css';
+@import 'blocks/logo/logo.css';
+@import 'blocks/experience/experience.css';
+@import 'blocks/services/services.css';
+@import 'blocks/blog/blog.css';
+@import 'blocks/post/post.css';
+@import 'blocks/footer/footer.css';

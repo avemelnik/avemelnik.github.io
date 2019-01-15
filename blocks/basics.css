@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------------------------------*/
+/*	FONT-FACE
+/*-----------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Dosis-Medium';
+    src: url('../src/fonts/Dosis-Medium.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dosis-Bold';
+    src: url('../src/fonts/Dosis-Bold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url('../src/fonts/Dosis-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dosis-Light';
+    src: url('../src/fonts/Dosis-Light.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../src/fonts/OpenSans-Light.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans-SemiBold';
+    src: url('../src/fonts/OpenSans-SemiBold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans-ExtraBold';
+    src: url('../src/fonts/OpenSans-ExtraBold.ttf');
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 13px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
