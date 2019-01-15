@@ -31,6 +31,10 @@
     margin-left: 0;
 }
 
+.menu-link__phone{
+    font-size: 30px;
+}
+
 @media screen and (min-width: 1170px) {
 
     .menu {

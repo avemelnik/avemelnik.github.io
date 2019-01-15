@@ -13,7 +13,7 @@
 
 .experience__text {
     font-family: "Open Sans-SemiBold", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     color: #3d3d3d;
@@ -52,5 +52,9 @@
         margin: 0;
         display: block;
         margin-left: 9.5%;
+    }
+
+    .experience__text{
+        font-size: 14px;
     }
 }

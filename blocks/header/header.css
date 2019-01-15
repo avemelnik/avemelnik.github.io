@@ -34,16 +34,18 @@
 .header__menu-block{
     display: flex;
     flex-direction: column;
-    transition: 3s;
-
+    width: 200px;
+    height: 300px;
+    background: rgba( 121, 167, 208, 0.7);
 }
+
 
 .burger{
     border: none;
     background: none;
     outline: 0;
-    width: 46px;
-    height: 46px;
+    width: 100px;
+    height: 100px;
 }
 
 .burger__img{

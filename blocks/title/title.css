@@ -4,7 +4,7 @@
     font-weight: 700;
     line-height: 10px;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
 .title__text{
     color: #ffffff;
     font-family: 'Dosis-Bold', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 10px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@
 .title-h2__text {
     color: #3d3d3d;
     font-family: 'Dosis-Bold', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 0;
     text-transform: uppercase;
@@ -57,7 +57,7 @@
 .title-h3 {
     color: #3d3d3d;
     font-family: 'Dosis-Bold', sans-serif;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
@@ -67,7 +67,7 @@
 .title-h3__text {
     color: #3d3d3d;
     font-family: "Open Sans-SemiBold", sans-serif;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
     text-transform: initial;
@@ -90,7 +90,7 @@
 .title-h4 {
     color: #3d3d3d;
     font-family: 'Dosis-Bold', sans-serif;
-    font-size: 16px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
@@ -99,13 +99,13 @@
 
 .title-h4__text {
     color: #8e8e8e;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     font-family: "Open Sans-SemiBold", sans-serif;
     font-weight: 600;
     font-style: normal;
     text-transform: initial;
-    margin-top: -8px;
+    margin-top: 20px;
     /*margin-bottom: 0;*/
 }
 
@@ -127,4 +127,21 @@
         font-size: 50px;
         text-align: left;
     }
+
+    .title-h3 {
+        font-size: 40px;
+    }
+
+    .title-h3__text {
+        font-size: 14px;
+    }
+
+    .title-h4 {
+        font-size: 16px
+    }
+    .title-h4__text {
+        font-size: 14px;
+        margin-top: -8px;
+    }
+
 }

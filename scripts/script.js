@@ -3,4 +3,5 @@ var headerMenu = document.getElementsByClassName('header__menu');
 burger.onclick = function() {
     burger.value = 'Off';
     headerMenu[0].classList.toggle('header__menu-block');
+    headerMenu[0].classList.toggle('menu-link__phone');
 };
